@@ -1,6 +1,7 @@
 # vue180111
 
-> A Vue.js project
+> 一个vue前端小项目实战  
+
 
 ## Build Setup
 
