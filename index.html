@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>vue180111</title>
+  <style>
+    *{
+      /*选中所有的元素和伪元素*/
+      margin:0;
+      padding: 0;
+
+
+      /*针对移动端*/
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -webkit-tap-highlight-color:transparent;
+
+
+    }
+    body{
+      font-size: 14px;
+      color: #333;
+      font-family: 'Microsoft Yahei',sans-serif;
+    }
+    ul,ol{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+      color: #333;
+    }
+    input,textarea{
+      outline: :none;
+      border:none;
+      resize: none;
+      -webkit-appearance:none;
+    }
+
+    /*common css公用样式*/
+    .f_left{
+      float: left;
+    }
+
+    .f_right{
+      float: right;
+    }
+
+    .clearfix::before,
+    .clearfix::after{
+      content: "";
+      display: block;;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+      clear: both;
+    }
+
+    .m_l10{
+      margin-left: 10px;
+    }
+
+    .m_r10{
+      margin-right: 10px;
+    }
+  </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
