@@ -2,6 +2,7 @@
 
 > 一个vue前端小项目实战  
 
+![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/1.png)
 
 ## Build Setup
 
