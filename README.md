@@ -2,16 +2,16 @@
 
 > 一个vue前端小项目实战  
  
-登录 界面  
+登录 界面   
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/1.png)  
    
-注册 界面  
+注册 界面   
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/2.png)   
    
-个人中心 界面  
+个人中心 界面   
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/4.png)   
     
-购物车页  
+购物车页   
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/5.png)   
 
 ## Build Setup
