@@ -10,8 +10,8 @@
    
 个人中心 界面  
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/4.png)   
-   
-购物车页 
+    
+购物车页  
 ![界面](https://github.com/mcjisok/vue-project/blob/master/screenhot/5.png)   
 
 ## Build Setup
