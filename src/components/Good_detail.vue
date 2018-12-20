@@ -25,9 +25,10 @@
                 <section class="turn">
                     <section id="slider">
                         <ul class="top-slider" style="width: 200%; -webkit-transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1); -webkit-transform: translate(0px, 0px) translateZ(0px);">
-                            <li style="width:50%" v-for="(imgurl,index) in detail.product_poster" >
+                            <li style="width:50%" v-for="(imgurl,index) in detail.product_poster" :key="index">
                                 <a>
-                                    <img :src="'http://localhost:3000'+imgurl" /></a>
+                                    <img :src="'http://localhost:3000'+imgurl" />
+                                </a>
                             </li>
                             <!-- <li style="width:50%">
                                 <a>

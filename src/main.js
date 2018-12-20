@@ -49,7 +49,9 @@ router.beforeEach((to, from, next) => {
     console.log('登录')
   }
   let user = getCookie('userid')
-  if (!user && (to.path === '/member' )) {
+  let test = true
+  // if (!user && (to.path === '/member' )) {
+  if (!test ) {
    next({ path: '/login' })
   } else {
    next()

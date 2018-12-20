@@ -5,7 +5,7 @@
                 <li><a href="javascript:;"><img src="static/images/1171914525-1_b.jpg" alt="" width="100%"></a></li>
             </ul> -->
             <mt-swipe :auto="4000">
-                <mt-swipe-item v-for="(imgurl,index) in detail.product_poster"><img :src="Api + imgurl" alt="" width="100%"></mt-swipe-item>
+                <mt-swipe-item v-for="(imgurl,index) in detail.product_poster" :key="index"><img :src="Api + imgurl" alt="" width="100%"></mt-swipe-item>
                 <!-- <mt-swipe-item><img src="static/images/1171914525-1_b.jpg" alt="" width="100%"></mt-swipe-item>
                 <mt-swipe-item><img src="static/images/1171914525-1_b.jpg" alt="" width="100%"></mt-swipe-item> -->
             </mt-swipe>

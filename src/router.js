@@ -7,7 +7,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import Member from './components/Member'
 
-import detail from './components/Good_detail_bak'
+// import detail from './components/Good_detail_bak'
 
 import buy_step1 from "./components/order/buy_step1";
 import add_address from "./components/order/add_address";
@@ -51,10 +51,10 @@ const routers = [
         path:'/member',
         component: Member
     },
-    {
-        path:'/detail/:id',
-        component:detail
-    },
+    // {
+    //     path:'/detail/:id',
+    //     component:detail
+    // },
     {
         path:'/buy_step1',
         component: buy_step1
